@@ -1,8 +1,8 @@
-package mielophone.plugins
+package mielophone.extensions
 {
 	import flash.events.IEventDispatcher;
 
-	public interface IMUIPlugin 
+	public interface IMUIExtension
 	{
 		// plugin details
 		function get PLUGIN_NAME():String;

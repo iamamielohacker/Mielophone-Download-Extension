@@ -7,19 +7,19 @@ package
 	import flash.net.FileReference;
 	import flash.net.URLRequest;
 	
-	import mielophone.plugins.IMUIPlugin;
+	import mielophone.extensions.IMUIExtension;
 	
 	import mx.controls.Alert;
 	import mx.controls.Button;
 	import mx.core.FlexGlobals;
 	import mx.utils.ObjectUtil;
 
-	public class MUIPlugin implements IMUIPlugin
+	public class MUIExtension implements IMUIExtension
 	{
 		[Embed(source="/download.png")]
 		private var icon:Class;
 		
-		public function MUIPlugin()
+		public function MUIExtension()
 		{
 			var b:Button = new Button();
 			b.x = b.y = 10;
